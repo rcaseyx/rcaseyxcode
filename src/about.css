@@ -1,6 +1,42 @@
 .about-me {
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
+  height: 95vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
+  background-image: linear-gradient(to bottom right, #164034, #af8d71);
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.about-text {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+}
+
+header h4 {
+  font-size: 100px;
+}
+
+.links {
+  width: 30%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.links svg {
+  margin: 30px;
+  color: white;
+}
+
+.links svg:hover {
+  color: #164034;
+  transition: .5s ease;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from './contact-form';
 import './contact.css';
 
 export default class Contact extends React.Component {
@@ -6,7 +7,7 @@ export default class Contact extends React.Component {
         return (
             <div className="contact-me">
                 <h4>Questions? Contact Me.</h4>
-                <p>This will have a contact form to email me</p>
+                <ContactForm />
             </div>
         );
     }

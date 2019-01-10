@@ -1,5 +1,5 @@
 nav {
-  position: fixed;
+  position: sticky;
   height: 30%;
   width: 100%;
   top: 0;
@@ -10,12 +10,12 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #000D11;
+  background-color: #164034;
 }
 
 nav ul li {
   float: right;
-  border-left:1px solid #bbb;
+  border-left:1px solid #ad640f;
 }
 
 nav ul li:first-child {
@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #052E3E;
+  background-color: #af8d71;
   transition: .4s ease;
 }
 

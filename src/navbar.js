@@ -16,7 +16,7 @@ export default class NavBar extends React.Component {
                             spy={true}
                             smooth={true}
                             duration={500}
-                            offset={-70}
+                            offset={-65}
                         >
                             Contact
                         </Link>
