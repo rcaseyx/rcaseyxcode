@@ -26,8 +26,7 @@
 }
 
 .project-wrapper {
-  flex: 1;
-  padding: 1em;
+  flex-basis: 33%;
   display: inline-block;
 }
 
@@ -35,12 +34,21 @@
 and (min-width : 320px)
 and (max-width : 480px) {
 
+  .projects {
+    justify-content: center;
+  }
+
   .portfolio {
     height: 100%;
+    margin-bottom: 30%;
   }
 
   .portfolio h3 {
     font-size: 20px;
+  }
+
+  .project-wrapper {
+    flex-basis: 100%;
   }
 
 
@@ -50,8 +58,17 @@ and (max-width : 480px) {
 and (min-width : 700px)
 and (max-width : 1024px) {
 
+  .projects {
+    justify-content: center;
+  }
+
   .portfolio {
     height: 100%;
+    margin-bottom: 30%;
+  }
+
+  .project-wrapper {
+    flex-basis: 90%;
   }
 
 }
