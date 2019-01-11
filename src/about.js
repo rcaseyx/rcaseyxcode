@@ -38,7 +38,7 @@ export default class About extends React.Component {
         return (
             <div className="about-me">
                 <header>
-                    <Typist avgTypingDelay={100}>
+                    <Typist avgTypingDelay={100} cursor={{ show: false}}>
                         <h4>Hi, my name is Ryan.</h4>
                     </Typist>
                 </header>
