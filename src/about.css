@@ -6,9 +6,9 @@
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  background-image: linear-gradient(to bottom, #164034, #af8d71);
+  background-image: linear-gradient(to bottom, #16292c, #295c5d);
   background-repeat: no-repeat;
-  color: white;
+  color: #f1e2c4;
 }
 
 .about-text {
@@ -43,10 +43,10 @@ header h4 {
 
 .links svg {
   margin: 30px;
-  color: white;
+  color: #f1e2c4;
 }
 
 .links svg:hover {
-  color: #164034;
+  color: #16292c;
   transition: .5s ease;
 }

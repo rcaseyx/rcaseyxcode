@@ -10,19 +10,19 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #164034;
+  background-color: #16292c;
 }
 
 nav ul li {
   float: right;
-  border-left:1px solid #ad640f;
+  border-left:1px solid #f1e2c4;
 }
 
 nav ul li:first-child {
   border-left: none;
   float: left;
   display: block;
-  color: white;
+  color: #f1e2c4;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -30,14 +30,15 @@ nav ul li:first-child {
 
 nav ul li a {
   display: block;
-  color: white;
+  color: #f1e2c4;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 nav ul li a:hover {
-  background-color: #af8d71;
+  background-color: #295c5d;
   transition: .4s ease;
 }
 

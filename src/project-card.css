@@ -2,9 +2,9 @@
   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
   border-radius: 10px;
   padding: 20px;
-  color: white;
-  background-color: #164034;
-  border: 2px solid #ad640f;
+  color: #f1e2c4;
+  background-color: #16292c;
+  border: 2px solid #f1e2c4;
   margin: 20px;
   text-align: center;
   height: 450px;
@@ -22,16 +22,16 @@
   margin-top: 5%;
   margin-bottom: 5%;
   width: 60%;
-  background-color: #af8d71;
-  border: 3px solid #ad640f;
+  background-color: #295c5d;
+  border: 2px solid #f1e2c4;
   font-size: 20px;
   border-radius: 5px;
-  color: white;
+  color: #f1e2c4;
   padding: 5px;
   text-decoration: none;
 }
 
 .project-card a:hover {
-  background-color: #164034;
+  background-color: #16292c;
   transition: .5s ease;
 }
