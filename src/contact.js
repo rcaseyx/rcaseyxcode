@@ -6,7 +6,7 @@ export default class Contact extends React.Component {
     render() {
         return (
             <div className="contact-me">
-                <h4>Questions? Contact Me.</h4>
+                <h3>Questions? Contact Me.</h3>
                 <ContactForm />
             </div>
         );

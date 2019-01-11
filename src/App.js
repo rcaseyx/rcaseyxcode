@@ -4,6 +4,7 @@ import About from './about';
 import NavBar from './navbar';
 import Portfolio from './portfolio';
 import Contact from './contact';
+import Footer from './footer';
 import './App.css';
 
 export default function App(props) {
@@ -15,6 +16,7 @@ export default function App(props) {
                 <Portfolio />
                 <Contact />
             </main>
+            <Footer />
         </div>
     )
 }

@@ -1,8 +1,15 @@
 .contact-form {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  background-color: #164034;
+  border: 2px solid #ad640f;
+  text-align: center;
+  width: 30%;
+  margin-top: 2%;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  text-align: center;
 }
 
 .contact-form label {
@@ -14,6 +21,17 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact-form textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  height: 100px;
+  width: 200px;
 }
 
 .contact-form button {
@@ -21,4 +39,5 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+  margin-bottom: 10px;
 }

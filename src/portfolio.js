@@ -10,27 +10,24 @@ export default class Portfolio extends React.Component {
             projects: [
                 {
                   title: "New Best Friend",
-                  about: "New Best Friend allows users to view available rescue dogs for adoption.",
+                  about: "New Best Friend allows users to view available rescue dogs for adoption. Users can set preferences and add dogs to their profile.",
                   image: "https://github.com/rcaseyx/new-best-friend/raw/master/public/images/findfriend.png",
                   url: "https://github.com/rcaseyx/new-best-friend",
-                  liveUrl: "https://new-best-friend.herokuapp.com/",
-                  techUsed: ["React","Redux","Redux-Form","React-Loader-Spinner","JWT-decode","Enzyme","NodeJs","Express","MongoDb","Mongoose","JWT","Passport","bcryptjs","Morgan","Faker","Mocha","Chai"]
+                  liveUrl: "https://new-best-friend.herokuapp.com/"
                 },
                 {
                   title: "Seen It?",
-                  about: "Seen It is an interactive application allowing users to keep track of the movies they watch.",
+                about: "Seen It is an interactive application allowing users to keep track of the movies they watch. Users are able to maintain lists of movies they've seen, as well as view other user lists.",
                   image: "https://github.com/rcaseyx/seen-it/raw/master/images/seen-it-4.png",
                   url: "https://github.com/rcaseyx/seen-it",
-                  liveUrl: "https://seen-it-app.herokuapp.com/",
-                  techUsed: ["HTML5","CSS3","jQuery/JavaScript","Node.js","Express","MongoDB","Mongoose","Passport","JWT","Mocha","Chai","Faker.js","Travis-CI","Heroku"]
+                  liveUrl: "https://seen-it-app.herokuapp.com/"
                 },
                 {
                   title: "The Scoop",
-                  about: "The Scoop is a web application that allows users to search for movie or TV show titles and get information about that title.",
+                  about: "The Scoop is an app that allows users to search for movies and shows and get information about them. Users can see recommended titles from a 3rd party API, as well as the trailer via the YouTube Data API.",
                   image: "https://github.com/rcaseyx/the-scoop/raw/master/imgs/scoop2.png",
                   url: "https://github.com/rcaseyx/the-scoop",
-                  liveUrl: "https://rcaseyx.github.io/the-scoop",
-                  techUsed: ["HTML5","CSS3","JavaScript","jQuery","YouTube Data API v3","The Movie Database API","BestBuy Products API"]
+                  liveUrl: "https://rcaseyx.github.io/the-scoop"
                 }
             ]
         };
@@ -46,7 +43,9 @@ export default class Portfolio extends React.Component {
         return (
             <div className="portfolio">
                 <h3>My Projects</h3>
-                {projects}
+                <div className="projects">
+                    {projects}
+                </div>
             </div>
         );
     }
