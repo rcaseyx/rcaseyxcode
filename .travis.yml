@@ -2,4 +2,11 @@ language: node_js
 node_js: node
 cache:
   directories:
-    - node_modules
+  - node_modules
+deploy:
+  provider: heroku
+  api_key:
+    secure: S0x6+yrbJeNKFxj1HbAY5EJYoE8aclz9Pb2RCfsqiMZfepIfyLuqIQeGULMIWSSWOCkcq1GkY4vx+D7igu5slojiqCPOcRftLDM6TOU9W8Uq9/+8GsRKZLFBm/a+quglAT7ybvPQ42Cmh1IaFQftjUOIwc0JDH2aiPojbUihMCS1kPLhRCBLA2TUSyFwSJPhVCwnG4paFSZYRMtdDwXic+It6lbp22Wy2rM/obgKn7CqBEnwOsJZVqMamR5u4gYpqESL+/vZxmo1AFwr6WOL3m7/8t1D3ZEw/9/0QNzp2ITovqKIbxLppp4lIIcX2OfzIirPSShNeYJb6HHaWnYKeHVK4NqMK7Cz4VbgJnIEFv7ywFZuBNAgSazkd7HSx95Kwl0l/F6B4LSUxb7KhLMKCfjg/HWml/urzrqkUfAw2Y9zhROG6nlwDz0tIxI8+NIk2H7wmpNDtfGXhHHr2mDSJ/copnE4ukCFpybb6VfWm2ulSjr2iYpSBzcLz8JXe4VYap3sWrdyVLD97cmwqNgHJvICyAwSSGTpDPOgWDmwjvw64jz3Q/SpEi/m5smrcvouYoPMc81dXU7elDKaCC2w4yIoTueIxEgTwWcGZXqf5nP9PZo+btA1UjQUtvgkz1gbU/NaQl+Q9w4vj9RaNB3yj6wbcJjozPBKxrRKxlAa9e0=
+  app: rcaseyxcode
+  on:
+    repo: rcaseyx/rcaseyxcode
