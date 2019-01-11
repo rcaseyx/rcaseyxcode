@@ -11,6 +11,15 @@ export default class NavBar extends React.Component {
                         Ryan Casey
                     </li>
                     <li>
+                        <a
+                            href="https://drive.google.com/file/d/1-rhyXWXop9AgGsgzDvpfrVd6TvCpIsRA/view?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Resume
+                        </a>
+                    </li>
+                    <li>
                         <Link
                             to="contact-me"
                             spy={true}

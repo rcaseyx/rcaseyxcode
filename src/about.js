@@ -44,9 +44,13 @@ export default class About extends React.Component {
                 </header>
                 <div className="about-text">
                     <p className={this.state.loadedTitle ? "fadeIn" : "hidden"}>
-                        This will be a small section where I talk about myself.
-                        it will have basic information about me. What I like to do,
-                        how I spend my time, etc. It will be super cool for sure.
+                        I'm an aspiring full-stack web developer. Since graduating from the
+                        University of Georgia in 2016, I've worked in several
+                        different roles in the tech industry. From Technical Support
+                        Specialist, to QA Analyst, to Production Support Engineer, I've
+                        picked up new skills at each position and continue to grow.
+                        I'm ready to make the jump to full-stack web developer
+                        and take my career to new heights!
                     </p>
                 </div>
                 <div className="links">
