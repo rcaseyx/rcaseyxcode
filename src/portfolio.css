@@ -14,7 +14,7 @@
 }
 
 .projects {
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -29,4 +29,29 @@
   flex: 1;
   padding: 1em;
   display: inline-block;
+}
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+
+  .portfolio {
+    height: 100%;
+  }
+
+  .portfolio h3 {
+    font-size: 20px;
+  }
+
+
+}
+
+@media only screen
+and (min-width : 700px)
+and (max-width : 1024px) {
+
+  .portfolio {
+    height: 100%;
+  }
+
 }

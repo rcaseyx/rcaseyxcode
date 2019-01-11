@@ -50,3 +50,25 @@ header h4 {
   color: #16292c;
   transition: .5s ease;
 }
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+
+  header h4 {
+    font-size: 30px;
+  }
+
+  .about-text {
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .links {
+    width: 50%;
+  }
+
+  .links svg {
+    margin: 10px;
+  }
+}

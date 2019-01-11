@@ -12,3 +12,12 @@ footer {
 footer a {
   color: #f1e2c4;
 }
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+
+  footer {
+    font-size: 10px;
+  }
+}

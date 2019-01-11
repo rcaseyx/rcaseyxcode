@@ -60,14 +60,14 @@ export default class About extends React.Component {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                            <FontAwesomeIcon icon={faGithub} size="6x" />
+                            <FontAwesomeIcon icon={faGithub} size="4x" />
                         </a>
                         <a
                           href="https://www.linkedin.com/in/ryancaseycode/"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                            <FontAwesomeIcon icon={faLinkedin} size="6x" />
+                            <FontAwesomeIcon icon={faLinkedin} size="4x" />
                         </a>
                     </div>
                 </div>
