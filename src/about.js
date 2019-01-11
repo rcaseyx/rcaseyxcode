@@ -1,5 +1,5 @@
 import React from 'react';
-import Typing from 'react-typing-animation';
+import Typist from 'react-typist';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './about.css';
@@ -38,9 +38,9 @@ export default class About extends React.Component {
         return (
             <div className="about-me">
                 <header>
-                    <Typing speed={100}>
+                    <Typist avgTypingDelay={100}>
                         <h4>Hi, my name is Ryan.</h4>
-                    </Typing>
+                    </Typist>
                 </header>
                 <div className="about-text">
                     <p className={this.state.loadedTitle ? "fadeIn" : "hidden"}>
