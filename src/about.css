@@ -14,7 +14,7 @@
 .about-text {
   margin-left: auto;
   margin-right: auto;
-  margin-top: -4%;
+  margin-top: -8%;
   text-align: center;
   padding: 10px;
   width: 50%;
@@ -36,7 +36,6 @@ header h4 {
 
 .links {
   width: 30%;
-  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;

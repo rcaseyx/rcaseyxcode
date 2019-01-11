@@ -12,7 +12,7 @@ export default class NavBar extends React.Component {
                     </li>
                     <li>
                         <a
-                            href="https://drive.google.com/file/d/1-rhyXWXop9AgGsgzDvpfrVd6TvCpIsRA/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1Lq9M7tLBMlhH6XUgTUpHcKAZATpvZJWZ/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
