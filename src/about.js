@@ -14,7 +14,7 @@ export default class About extends React.Component {
         }
     }
 
-    componentWillMount() {
+    componentDidMount() {
         this.firstDelay();
     }
 
