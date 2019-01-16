@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import logo from './images/rc_logo.png';
 import './navbar.css';
 
 export default class NavBar extends React.Component {
@@ -8,7 +9,7 @@ export default class NavBar extends React.Component {
             <nav role="navigation">
                 <ul className="nav-links">
                     <li>
-                        Ryan Casey
+                        <img src={logo} alt="Ryan Casey logo" />
                     </li>
                     <li>
                         <a

@@ -2,6 +2,7 @@ import React from 'react';
 import Typist from 'react-typist';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import emblem from './images/rc_emblem.png';
 import './about.css';
 
 export default class About extends React.Component {
@@ -9,6 +10,7 @@ export default class About extends React.Component {
         super(props);
 
         this.state = {
+            loadEmblem: false,
             loadedTitle: false,
             loadedSub: false
         }
@@ -16,14 +18,19 @@ export default class About extends React.Component {
 
     componentDidMount() {
         this.firstDelay();
+        this.loadEmblem();
+    }
+
+    loadEmblem() {
+        this.setState({loadEmblem: true});
     }
 
     firstDelay() {
-        setTimeout(() => this.titleDone(), 3000);
+        setTimeout(() => this.titleDone(), 3800);
     }
 
     secondDelay() {
-        setTimeout(() => this.subDone(), 2000);
+        setTimeout(() => this.subDone(), 2500);
     }
 
     titleDone() {
@@ -37,9 +44,11 @@ export default class About extends React.Component {
     render() {
         return (
             <div className="about-me">
+                <img className={this.state.loadEmblem ? "fadeIn" : "hidden"} src={emblem} alt="RC emblem" />
                 <header>
                     <Typist avgTypingDelay={100} cursor={{ show: false}}>
-                        <h4>Hi, my name is Ryan.</h4>
+                        <Typist.Delay ms={800} />
+                        <h1>Hi, my name is Ryan.</h1>
                     </Typist>
                 </header>
                 <div className="about-text">

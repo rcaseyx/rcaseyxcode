@@ -1,6 +1,6 @@
 nav {
   position: sticky;
-  height: 30%;
+  /*height: 30%;*/
   width: 100%;
   top: 0;
 }
@@ -21,11 +21,14 @@ nav ul li {
 nav ul li:first-child {
   border-left: none;
   float: left;
-  display: block;
-  color: #f1e2c4;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding-left: 1%;
+  width: 8%;
+  padding-top: .2%;
+  max-width: 110px;
+}
+
+nav ul li img {
+  width: 100%;
 }
 
 nav ul li a {
@@ -53,7 +56,15 @@ and (max-width : 480px) {
   nav ul li:first-child {
     border-left: none;
     float: left;
-    font-size: 10px;
-    padding: 2px 4px;
+    width: 20%;
+    padding-top: 0px;
+  }
+}
+
+@media only screen
+and (min-width : 700px)
+and (max-width : 1024px) {
+  nav ul li:first-child {
+    width: 30%;
   }
 }

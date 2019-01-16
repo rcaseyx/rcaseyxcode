@@ -11,6 +11,13 @@
   color: #f1e2c4;
 }
 
+.about-me img {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
 .about-text {
   margin-left: auto;
   margin-right: auto;
@@ -20,9 +27,10 @@
   font-size: 20px;
 }
 
-header h4 {
+header h1 {
   font-size: 90px;
   margin-bottom: 3%;
+  margin-top: -2%;
 }
 
 .hidden {
@@ -55,7 +63,7 @@ header h4 {
 and (min-width : 320px)
 and (max-width : 480px) {
 
-  header h4 {
+  header h1 {
     font-size: 30px;
   }
 
@@ -70,5 +78,17 @@ and (max-width : 480px) {
 
   .links svg {
     margin: 10px;
+  }
+}
+
+@media only screen
+and (min-width : 700px)
+and (max-width : 1024px) {
+  .about-text {
+    width: 90%
+  }
+
+  .links {
+    width: 50%;
   }
 }
