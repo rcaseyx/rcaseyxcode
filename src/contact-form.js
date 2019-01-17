@@ -49,7 +49,6 @@ export default class ContactForm extends React.Component {
             loading: false,
             submitted: true
         });
-        console.log(res);
     }
 
     apiError(err) {
