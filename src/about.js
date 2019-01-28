@@ -53,13 +53,13 @@ export default class About extends React.Component {
                 </header>
                 <div className="about-text">
                     <p className={this.state.loadedTitle ? "fadeIn" : "hidden"}>
-                        I'm an aspiring full-stack web developer. Since graduating from the
+                        I'm a full-stack web developer living in Atlanta. Since graduating from the
                         University of Georgia in 2016, I've worked in several
                         different roles in the tech industry. From Technical Support
                         Specialist, to QA Analyst, to Production Support Engineer, I've
                         picked up new skills at each position and continue to grow.
-                        I'm ready to make the jump to full-stack web developer
-                        and take my career to new heights!
+                        I enjoy being creative, and building web applications provides great
+                        opportunities for that. I'm excited to see where my career leads next! 
                     </p>
                 </div>
                 <div className="links">
