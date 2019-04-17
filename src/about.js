@@ -55,11 +55,10 @@ export default class About extends React.Component {
                     <p className={this.state.loadedTitle ? "fadeIn" : "hidden"}>
                         I'm a full-stack web developer living in Atlanta. Since graduating from the
                         University of Georgia in 2016, I've worked in several
-                        different roles in the tech industry. From Technical Support
-                        Specialist, to QA Analyst, to Production Support Engineer, I've
-                        picked up new skills at each position and continue to grow.
-                        I enjoy being creative, and building web applications provides great
-                        opportunities for that. I'm excited to see where my career leads next! 
+                        different roles in the tech industry. From QA Analyst, to Production Support
+                        Engineer, to Software Engineer, I've picked up new skills at each position and
+                        continue to grow. I enjoy being creative, and building web applications provides great
+                        opportunities for that. 
                     </p>
                 </div>
                 <div className="links">
