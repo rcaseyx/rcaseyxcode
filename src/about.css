@@ -11,7 +11,7 @@
   color: #f1e2c4;
 }
 
-.about-me img {
+.emblemImage {
   width: 20%;
   margin-left: auto;
   margin-right: auto;
@@ -22,14 +22,14 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   width: 50%;
   font-size: 20px;
 }
 
 header h1 {
-  font-size: 90px;
-  margin-bottom: 3%;
+  font-size: 60px;
+  margin-bottom: 1%;
   margin-top: -2%;
 }
 
@@ -44,13 +44,13 @@ header h1 {
 
 .links {
   width: 30%;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
 }
 
 .links svg {
-  margin: 30px;
+  margin: 20px;
   color: #f1e2c4;
 }
 

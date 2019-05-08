@@ -1,0 +1,33 @@
+.slideContainer {
+    width: 100%;
+    position: absolute;
+}
+
+.slideContainer img {
+    border-radius: 10px;
+    width: 28%;
+}
+
+.onScreen {
+    left: 0px;
+}
+
+.offScreenRight {
+    left: 100vw;
+}
+
+.offScreenLeft {
+    left: -100vw;
+}
+
+.myTransition {
+    transition: left 1s ease-in-out;
+}
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 1024px) {
+    .slideContainer img {
+        width: 50%;
+    }
+}

@@ -2,8 +2,15 @@ import React from 'react';
 import Typist from 'react-typist';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Slideshow from './slideshow';
 import emblem from './images/rc_emblem.png';
+import slide1 from './images/slide1.jpg';
+import slide2 from './images/slide2.jpg';
+import slide3 from './images/slide3.jpg';
+import slide4 from './images/slide4.jpg';
 import './about.css';
+
+const slides = [slide1, slide2, slide3, slide4];
 
 export default class About extends React.Component {
     constructor(props) {
@@ -26,41 +33,31 @@ export default class About extends React.Component {
     }
 
     firstDelay() {
-        setTimeout(() => this.titleDone(), 3800);
+        setTimeout(() => this.subDone(), 3800);
     }
 
     secondDelay() {
-        setTimeout(() => this.subDone(), 2500);
+        setTimeout(() => this.titleDone(), 2000);
     }
 
     titleDone() {
         this.setState({loadedTitle: true});
-        this.secondDelay();
     }
 
     subDone() {
         this.setState({loadedSub: true});
+        this.secondDelay();
     }
     render() {
         return (
             <div className="about-me">
-                <img className={this.state.loadEmblem ? "fadeIn" : "hidden"} src={emblem} alt="RC emblem" />
+                <img className={"emblemImage " + (this.state.loadEmblem ? "fadeIn" : "hidden")} src={emblem} alt="RC emblem" />
                 <header>
                     <Typist avgTypingDelay={100} cursor={{ show: false}}>
                         <Typist.Delay ms={800} />
                         <h1>Hi, my name is Ryan.</h1>
                     </Typist>
                 </header>
-                <div className="about-text">
-                    <p className={this.state.loadedTitle ? "fadeIn" : "hidden"}>
-                        I'm a full-stack web developer living in Atlanta. Since graduating from the
-                        University of Georgia in 2016, I've worked in several
-                        different roles in the tech industry. From QA Analyst, to Production Support
-                        Engineer, to Software Engineer, I've picked up new skills at each position and
-                        continue to grow. I enjoy being creative and solving problems, and building web applications
-                        is a great outlet for both.
-                    </p>
-                </div>
                 <div className="links">
                     <div className={this.state.loadedSub ? "fadeIn" : "hidden"}>
                         <a
@@ -78,6 +75,17 @@ export default class About extends React.Component {
                             <FontAwesomeIcon icon={faLinkedin} size="4x" />
                         </a>
                     </div>
+                </div>
+                <div className={"about-text " + (this.state.loadedTitle ? "fadeIn" : "hidden")}>
+                    <p>
+                        I'm a full-stack web developer living in Atlanta. Since graduating from the
+                        University of Georgia in 2016, I've worked in several
+                        different roles in the tech industry. From QA Analyst, to Production Support
+                        Engineer, to Software Engineer, I've picked up new skills at each position and
+                        continue to grow. I enjoy being creative and solving problems, and building web applications
+                        is a great outlet for both.
+                    </p>
+                    <Slideshow slides={slides} />
                 </div>
             </div>
         );
